@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body>
+    <main class="w-screen min-h-screen flex justify-center font-serif">
+      <div class="w-[480px] h-full bg-slate-300 p-4 mt-10 rounded-md">
+        <h1 class="font-semibold text-lg text-center">SIMPLE NOTE</h1>
+        <form id="form-input" class="flex flex-col gap-4 mt-5">
+          <textarea
+            id="note"
+            class="min-h-36 p-2 rounded-md"
+            required
+            placeholder="Masukkan Catatan"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-orange-500 hover:bg-orange-600 py-3 rounded-lg transition-colors text-white"
+          >
+            Confirm
+          </button>
+        </form>
+        <div id="parent" class="mt-5 flex flex-col gap-4"></div>
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Tailwind CSS</title>
+        </head>
+        <body>
+          <main class="w-screen min-h-screen flex justify-center font-serif">
+            <div class="w-[480px] h-full bg-slate-300 p-4 mt-10 rounded-md">
+              <h1 class="font-semibold text-lg text-center">SIMPLE NOTE</h1>
+              <form id="form-input" class="flex flex-col gap-4 mt-5">
+                <h2>NOTE</h2>
+                <textarea
+                  id="note"
+                  class="min-h-36 p-2 rounded-md"
+                  required
+                  placeholder="Masukkan Catatan"
+                >
+                </textarea>
+                <button
+                  type="submit"
+                  class="bg-orange-500 hover:bg-orange-600 py-3 rounded-lg transition-colors text-white"
+                >
+                  Confirm
+                </button>
+              </form>
+            </div>
+          </main>
+          <script type="module" src="/main.js"></script>
+        </body>
+      </html> -->
